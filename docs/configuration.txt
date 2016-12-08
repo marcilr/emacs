@@ -1,0 +1,41 @@
+configuration.txt
+Created Tue Jun 10 10:11:54 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+When Emacs is started, it normally tries to load a Lisp program from an
+initialization file, or init file for short.  This file, l, or
+~/.emacs.d/init.el; you can choose to use any one of these three names
+(see Find Init).  Here, ~/ stands for your home direl, or ~/.emacs.d/init.el;
+you can choose to use any one of these three names (see Find Init).  Here,
+~/ stands for your home directory.
+
+You can the command line switch '-q' to prevent loading your init file,
+and -u (or '--user') to specify a different user's init file (see Initial
+Options).
+
+gnu.org/software/emacs/manual/html_node/emacs/Init-File.html
+
+
+FIXME: Configuration definitely not working on GCI Network Services, OSS
+       debian wheezy 7.5 amd64 workstation.
+
+
+
+How Emacs Finds Your Init File
+==============================
+Normally Emacs uses the environment variable HOME (see HOME) to find .emacs;
+that's what ‘~’ means in a file name.  If .emacs is not found inside ~/
+(nor .emacs.el), Emacs looks for ~/.emacs.d/init.el (which, like ~/.emacs.el,
+can be byte-compiled).
+
+gnu.org/software/emacs/manual/html_node/emacs/Find-Init.html#Find-Init
+
+
+Links
+=====
+48.4 The Emacs Initialization File
+http://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html
+
+48.4.4 How Emacs Finds Your Init File
+http://www.gnu.org/software/emacs/manual/html_node/emacs/Find-Init.html#Find-Init
