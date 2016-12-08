@@ -1,0 +1,14 @@
+README
+Created Wed Dec  7 16:01:56 AKST 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+conf.txt
+  Configuration for emacs
+
+init.el
+  ~/.emacs.d/init.el
+  Emacs configuration from GCI Network Services, OSS covellite
+  workstation on December 7, 2016
