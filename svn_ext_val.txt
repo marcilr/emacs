@@ -1,0 +1,13 @@
+#
+# svn_ext_val.txt
+# Created Mon Jun  9 13:59:00 AKDT 2014
+# by Raymond E. Marcil <rmarcil@gci.com>
+#
+
+
+#
+# List of repo hierarchical directories to checkout under emacs/
+#
+# docs/   Documentation
+#
+../../emacs/docs/docs   ./docs
