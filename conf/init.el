@@ -7,7 +7,7 @@
 
 
 ;;
-;; Hide help splah at bottom of screen on startupo
+;; Hide help splash at bottom of screen on startupo
 ;;
 ;; Unable to hide welcome screen in Emacs
 ;; http://stackoverflow.com/questions/744672/unable-to-hide-welcome-screen-in-emacs
@@ -32,3 +32,29 @@
 ;; http://stackoverflow.com/questions/294664/how-to-set-the-font-size-in-emacs
 ;;
 (set-face-attribute 'default nil :height 150)
+
+
+;;
+;; Use spaces instead of tabs
+;;
+;; Links
+;; =====
+;; Indentation Basics
+;; http://www.emacswiki.org/emacs/IndentationBasics
+;;
+;; No Tabs
+;; http://www.emacswiki.org/emacs/NoTabs
+;;
+;; Tabs Are Evil
+;; http://www.emacswiki.org/emacs/TabsAreEvil
+;;
+(setq-default indent-tabs-mode nil)
+
+
+;;
+;; Set default tab width to 4 spaces
+;;
+;; ARCHIVED: In Emacs, how can I change tab sizes?
+;; https://kb.iu.edu/d/abde
+;;
+(setq default-tab-width 4)
