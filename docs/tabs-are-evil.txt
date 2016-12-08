@@ -1,0 +1,23 @@
+tabs-are-evil.txt
+Created Mon Jun  9 14:01:01 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Tabs are evil whenever they require you to know the tab size in advance.
+
+emacswiki.org/
+
+
+Links
+=====
+Indentation Basics
+http://www.emacswiki.org/emacs/IndentationBasics
+
+NoTabs
+If you want to use spaces instead of tabs when indenting, put the following in
+your .emacs file:
+  (setq-default indent-tabs-mode nil)
+http://www.emacswiki.org/emacs/NoTabs
+
+Tabs Are Evil
+http://www.emacswiki.org/emacs/TabsAreEvil
