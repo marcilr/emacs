@@ -1,11 +1,35 @@
 conf.txt
-Created Thu Apr 24 14:34:00 AKDT 2014
+Created Tue Jun 10 10:11:54 AKDT 2014
 Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
 
 
-GNU Emacs editor configuration
+Configuration of GNU Emacs
 
 
+When Emacs is started, it normally tries to load a Lisp program from an
+initialization file, or init file for short.  This file, l, or
+~/.emacs.d/init.el; you can choose to use any one of these three names
+(see Find Init).  Here, ~/ stands for your home direl, or ~/.emacs.d/init.el;
+you can choose to use any one of these three names (see Find Init).  Here,
+~/ stands for your home directory.
+
+You can the command line switch '-q' to prevent loading your init file,
+and -u (or '--user') to specify a different user's init file (see Initial
+Options).
+--gnu.org/software/emacs/manual/html_node/emacs/Init-File.html
+
+
+How Emacs Finds Your Init File
+==============================
+Normally Emacs uses the environment variable HOME (see HOME) to find .emacs;
+that's what ‘~’ means in a file name.  If .emacs is not found inside ~/
+(nor .emacs.el), Emacs looks for ~/.emacs.d/init.el (which, like ~/.emacs.el,
+can be byte-compiled).
+--gnu.org/software/emacs/manual/html_node/emacs/Find-Init.html#Find-Init
+
+
+Remove welcome splash
+=====================
 Remove second split window with "Welcome to GNU Emacs..." on startup.
 
 Update ~/.emacs.d/inet.el with:
@@ -19,8 +43,7 @@ Update ~/.emacs.d/inet.el with:
 Starting with Emacs 22, if ~/.emacs does not exist, Emacs will try
 ~/.emacs.d/init.el and ~/.emacs.d/init.elc.  You can also put the shell init
 file .emacs_SHELL under ~/.emacs.d.
-
-emacswiki.org/emacs/DotEmacsDotD
+--emacswiki.org/emacs/DotEmacsDotD
 
 
 DotEmacsDotD (~/.emacs.d/)
@@ -46,8 +69,7 @@ The user directory itself is not part of load-path, and since it contains
 other things than libraries, you should leave it at that.  Instead, you should
 install packages in a dedicated sub-directory (e.g., ~/.emacs.d/elisp) and add
 that to the load-path instead.
-
-emacswiki.org/emacs/DotEmacsDotD
+--emacswiki.org/emacs/DotEmacsDotD
 
 
 Links
@@ -63,3 +85,8 @@ Since it is located in the home directory (~/), it is unique for each user,
 just like the ~/.emacs init file.
 http://www.emacswiki.org/emacs/DotEmacsDotD
 
+How Emacs Finds Your Init File (48.4.4)
+http://www.gnu.org/software/emacs/manual/html_node/emacs/Find-Init.html#Find-Init
+
+The Emacs Initialization File (48.4)
+http://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html
