@@ -1,14 +1,21 @@
 README
-Created Wed Dec  7 16:01:56 AKST 2016
-Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+Created Mon Jun  9 14:02:16 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
 
 
 Filelist
 ========
-conf.txt
-  Configuration for emacs
+configuration.txt
+  Emacs configuration
+
+configure-tabs.txt
+  Configure tabs in emacs
 
 init.el
   ~/.emacs.d/init.el
   Emacs configuration from GCI Network Services, OSS covellite
   workstation on December 7, 2016
+
+tabs-are-evil.txt
+  Tabs are evil whenever they require you to know the tab size in advance.
+  http://www.emacswiki.org/emacs/TabsAreEvil
