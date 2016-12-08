@@ -1,0 +1,17 @@
+configure-tabs.txt
+Created Tue Jun 10 10:03:21 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+On GCI Network Services, OSS covellite debian wheezy 7.5 amd64 workstation 
+configuring emacs23 packages with tab stops of 4 spaces.
+
+On the latest versions of emacs the configuration file has changed from
+~/.emacs to 
+
+
+Links
+=====
+Indentation Basics
+http://www.emacswiki.org/emacs/IndentationBasics
+
