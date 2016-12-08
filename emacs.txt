@@ -1,0 +1,12 @@
+emacs.txt
+Created Thu Apr 24 14:30:32 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+GNU Emacs editor
+
+
+version
+  GNU Emacs 23.4.1 (x86_64-pc-linux-gnu, GTK+ Version 2.24.10)
+  of 2012-09-08 on trouble, modified by Debian
+  (On GCI Network Services, OSS Debian Wheezy amd64, 7.4 workstation
