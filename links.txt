@@ -1,0 +1,20 @@
+links.txt
+Created Thu Apr 24 14:31:13 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+GNU Emacs editor related links
+
+
+Links
+=====
+Dot Emacs Dot D
+The directory ~/.emacs.d/ is a standard location for additional per-user
+Emacs-specific files. Various packages store information in this directory.
+Since it is located in the home directory (~/), it is unique for each user,
+just like the ~/.emacs init file. 
+http://www.emacswiki.org/emacs/DotEmacsDotD
+
+Emacs For Debian
+Emacs, Xemacs and related packages in debian
+http://www.emacswiki.org/emacs/EmacsForDebian
