@@ -1,0 +1,13 @@
+links.txt
+Created Thu Apr 11 11:10:11 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Emacs configuration related links
+
+
+Links
+=====
+G.6 Keyboard Usage on MS-Windows
+Has M-x or meta-x is alt-x under windows
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Windows-Keyboard.html
