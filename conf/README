@@ -11,6 +11,11 @@ configuration.txt
 configure-tabs.txt
   Configure tabs in emacs
 
+hide-welcome-to-emacs.txt
+  Add the following to your $HOME/.emacs:
+
+  (setq inhibit-startup-screen t)
+
 init.el
   ~/.emacs.d/init.el
   Emacs configuration from GCI Network Services, OSS covellite
