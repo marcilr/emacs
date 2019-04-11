@@ -39,6 +39,9 @@ init.el
   Emacs configuration from GCI Network Services, OSS covellite
   workstation on December 7, 2016
 
+links.txt
+  Emacs configuration related links
+
 tabs-are-evil.txt
   Tabs are evil whenever they require you to know the tab size in advance.
   http://www.emacswiki.org/emacs/TabsAreEvil
