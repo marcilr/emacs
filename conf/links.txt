@@ -11,3 +11,8 @@ Links
 G.6 Keyboard Usage on MS-Windows
 Has M-x or meta-x is alt-x under windows
 https://www.gnu.org/software/emacs/manual/html_node/emacs/Windows-Keyboard.html
+
+14.9 Colors for Faces
+Use of M-x list-colors-display view available colors
+and description.
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Colors.html
