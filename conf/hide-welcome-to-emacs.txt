@@ -1,0 +1,22 @@
+hide-welcome-to-emacs.txt
+Created Thu Apr 11 10:48:23 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+
+Add the following to your $HOME/.emacs:
+
+(setq inhibit-startup-screen t)
+
+The next time you start Emacs, the welcome screen
+shouldn't appear.  If you already have Emacs open
+with the welcome screen, you can kill it with C-x k
+(Control-x, then k).
+--stackoverflow.com/questions/744672/
+
+
+Links
+=====
+Unable to hide welcome screen in Emacs
+https://stackoverflow.com/questions/744672/unable-to-hide-welcome-screen-in-emacs
+
