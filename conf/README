@@ -3,6 +3,24 @@ Created Mon Jun  9 14:02:16 AKDT 2014
 Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
 
 
+Thu Apr 11 10:53:10 AKDT 2019
+=============================
+On Alaska State DNR Debian 9.8 VPN vm installed
+configuration for:
+  GNU Emacs 24.5.1 macs 24.5.1 (x86_64-pc-linux-gnu,
+  GTK+ Version 3.22.11)
+
+$ cp init.el ~/.emacs.d/
+
+$ dpkg -l | grep emacs
+ii  emacs   46.1   all   GNU Emacs editor (metapackage)
+...
+$
+
+Black background, wheat text.   Very nice!
+
+
+
 Filelist
 ========
 configuration.txt
