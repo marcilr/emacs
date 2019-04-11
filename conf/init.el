@@ -21,8 +21,17 @@
 ;; Posted on January 18th, 2009 by Sacha Chua
 ;; http://sachachua.com/blog/2009/01/emacs-basics-changing-the-background-color/
 ;;
+;; To see colors type:
+;; 
+;; M-x, i.e. meta-x or alt-x (under windows), then meta-list-colors
+;;
+;; Thu Apr 11 11:07:31 AKDT 2019
+;; =============================
+;; Updated from wheat to WhiteSmoke.  Very nice!
+;;
 (set-background-color "black")
-(set-foreground-color "wheat")
+(set-foreground-color "WhiteSmoke")
+;;(set-foreground-color "wheat")
 
 ;;
 ;; Set font size
