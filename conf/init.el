@@ -27,7 +27,7 @@
 ;;
 ;; Thu Apr 11 11:07:31 AKDT 2019
 ;; =============================
-;; Updated from wheat to WhiteSmoke.  Very nice!
+;; Updated from wheat to WhiteSmoke
 ;;
 (set-background-color "black")
 (set-foreground-color "WhiteSmoke")
@@ -67,3 +67,13 @@
 ;; https://kb.iu.edu/d/abde
 ;;
 (setq default-tab-width 4)
+
+;;
+;; Fri Apr 19 14:06:32 AKDT 2019
+;; =============================
+;; Display line numbers
+;;
+;; Add line numbers to GNU Emacs
+;; https://askubuntu.com/questions/40801/add-line-numbers-to-gnu-emacs
+;;
+(global-linum-mode t)
