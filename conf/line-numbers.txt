@@ -1,0 +1,22 @@
+line-numbers.txt
+Created Fri Apr 19 14:11:41 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+To add line number update ~/.emacs.d/init.el with:
+
+;;
+;; Fri Apr 19 14:06:32 AKDT 2019
+;; =============================
+;; Display line numbers
+;;
+;; Add line numbers to GNU Emacs
+;; https://askubuntu.com/questions/40801/add-line-numbers-to-gnu-emacs
+;;
+(global-linum-mode t)
+
+
+Links
+=====
+Add line numbers to GNU Emacs
+https://askubuntu.com/questions/40801/add-line-numbers-to-gnu-emacs
