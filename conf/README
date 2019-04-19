@@ -39,6 +39,19 @@ init.el
   Emacs configuration from GCI Network Services, OSS covellite
   workstation on December 7, 2016
 
+line-numbers.txt
+  To add line number update ~/.emacs.d/init.el with:
+
+  ;;
+  ;; Fri Apr 19 14:06:32 AKDT 2019
+  ;; =============================
+  ;; Display line numbers
+  ;;
+  ;; Add line numbers to GNU Emacs
+  ;; https://askubuntu.com/questions/40801/add-line-numbers-to-gnu-emacs
+  ;;
+  (global-linum-mode t)
+
 links.txt
   Emacs configuration related links
 
