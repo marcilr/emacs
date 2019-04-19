@@ -3,6 +3,19 @@ Created Mon Jun  9 14:02:16 AKDT 2014
 Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
 
 
+Fri Apr 19 14:14:05 AKDT 2019
+=============================
+Updated inet.el for line numbers with:
+
+;;
+;; Display line numbers
+;;
+;; Add line numbers to GNU Emacs
+;; https://askubuntu.com/questions/40801/add-line-numbers-to-gnu-emacs
+;;
+(global-linum-mode t)
+
+
 Thu Apr 11 10:53:10 AKDT 2019
 =============================
 On Alaska State DNR Debian 9.8 VPN vm installed
