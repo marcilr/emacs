@@ -1,0 +1,53 @@
+color.txt
+Created Tue Oct 22 11:11:11 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Color
+
+To set color in .emacs file use:
+  (set-foreground-color "white")
+  (set-background-color "blue")
+
+Off white colors:
+
+hex    name
+---------------
+#fffafa   snow
+#f8f8ff   ghost white
+#f8f8ff   GhostWhite    <===
+#f5f5f5   white smoke
+#f5f5f5   WhiteSmoke
+--Colors Available to Emacs
+  http://www.raebear.net/computers/emacs-colors/
+
+
+Tue Oct 22 14:02:57 AKDT 2019
+=============================
+ON intdev updated .emacs for smoke smoke text and black background:
+
+ssh intdev
+
+nano ~/.emacs
+
+Smoke text and black background:
+(set-foreground-color "#f8f8f8")     ; Smoke text
+(set-background-color "black")       ; Black background
+
+To disable welcome screen:
+
+(setq inhibit-startup-screen t)      ; hide welcome screen
+...
+
+few other items I should add.
+
+
+Links
+=====
+Emacs: Set Color Theme
+By Xah Lee. Date: 2012-10-11. Last updated: 2018-11-03
+http://ergoemacs.org/emacs/emacs_playing_with_color_theme.html
+
+Set Color
+Emacs Wiki
+https://www.emacswiki.org/emacs/SetColor
